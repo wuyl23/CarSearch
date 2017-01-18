@@ -1,0 +1,11 @@
+[ 2017-01-12T09:39:35+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002877s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0045s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0007s ]
+

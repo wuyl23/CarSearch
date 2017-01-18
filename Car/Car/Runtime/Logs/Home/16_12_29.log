@@ -1,0 +1,36 @@
+[ 2016-12-29T10:39:03+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0116s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carsearchsmall.carsearchsmall_document' doesn't exist
+
+[ 2016-12-29T10:39:08+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002249s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0035s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carsearchsmall.carsearchsmall_document' doesn't exist
+
+[ 2016-12-29T10:39:17+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0041s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0003s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'carsearchsmall.carsearchsmall_document' doesn't exist
+

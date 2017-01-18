@@ -1,0 +1,52 @@
+<extend name="Public/base"/>
+
+<!-- 子导航 -->
+<block name="sidebar">
+    <include file="sidemenu" />
+</block>
+
+<block name="body">
+	<!-- 标题 -->
+	<div class="main-title">
+		<h2>充值优惠</h2>
+
+	</div>
+
+
+	<!-- 数据表格 -->
+    <div class="data-table">
+		<table class="">
+      <thead>
+          <tr>
+      <th class="">名称</th>
+      <th class="">开始时间</th>
+      <th class="">结束时间</th>
+      <th class="">类型</th>
+      <th class="">类型值</th>
+      <th class="">状态操作</th>
+      </tr>
+      </thead>
+      <form action="" method="post">
+        <td><input class="" type="text" name="name"  value="充值优惠" disabled="enable" width="50px" /></td>
+  			<td><input type="date" name="sttime" value="" /></td>
+  			<td><input type="date" name="endtime"/></td>
+  			<td><select name="type"><option value="现金券">现金券</option>
+                    <option value="百分比">百分比</option>
+                    </select></td>
+  			<td><input type="text" name="num" /></td>
+  			<td><eq name="vo.status" value="1">
+  				<a href="{:U('disable',array('id'=>$vo['id']))}" class="ajax-get">禁用</a>
+  				<else/>
+  				<a href="{:U('enable',array('id'=>$vo['id']))}" class="ajax-get">启用</a>
+  				</eq>
+                  </td>
+  		</form>
+
+        </table>
+	</div>
+	<!-- 分页 -->
+    <div class="page">
+        {$_page}
+    </div>
+
+</block>

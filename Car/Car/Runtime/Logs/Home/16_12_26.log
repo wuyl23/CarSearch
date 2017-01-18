@@ -1,0 +1,44 @@
+[ 2016-12-26T15:05:32+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002358s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0075s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
+[ 2016-12-26T15:17:19+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001797s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0124s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0009s ]
+
+[ 2016-12-26T16:25:45+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001467s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0227s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0009s ]
+
+[ 2016-12-26T16:49:58+08:00 ] ::1 /Car/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002756s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `carsearchsmall_config` [ RunTime:0.0060s ]
+SQL: SELECT `type`,`name`,`value` FROM `carsearchsmall_config` WHERE `status` = 1  [ RunTime:0.0004s ]
+
